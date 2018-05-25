@@ -1,7 +1,7 @@
 
 print("list는 벡터 안을 변경 가능하다")
 a=list([1,2,3])
-type(a)
+print(type(a))
 print(a[0:2])
 a.append(4)
 print(a)
